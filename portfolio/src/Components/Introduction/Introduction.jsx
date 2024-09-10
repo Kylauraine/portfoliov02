@@ -10,6 +10,7 @@ const Introduction = () => {
       <img className="Introduction__background" src={background_intro} alt="background" />
       <h2 className="Introduction__title">Développeuse web junior</h2>
       <p className="Introduction__text">Hey, je m'appelle Laura Preston. Je suis une développeuse web frontend en reconversion professionnelle.</p>
+      <button className="Introduction__button">Projets</button>
       <FontAwesomeIcon className="Introduction__arrowsdown" icon={faArrowsDownToLine} />
     </section>
   );
