@@ -63,3 +63,9 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .skills__logo {
+    display: none;
+  }
+}
