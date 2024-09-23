@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.scss";
 import Header from "./Components/Header/Header";
 import Introduction from "./Components/Introduction/Introduction";
@@ -9,6 +9,28 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 
 function App() {
+  useEffect(() => {
+    const originalTitle = document.title;
+
+    // Gestion du changement de visibilité
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        document.title = "Hey ! Revenez !";
+      } else {
+        document.title = originalTitle;
+      }
+    };
+
+    // Ajout de l'écouteur d'événement
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
+    // Nettoyage de l'écouteur d'événement à la destruction du composant
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      document.title = originalTitle; // Restauration du titre original
+    };
+  }, []); // Le tableau vide assure que cet effet s'exécute une seule fois
+
   return (
     <div>
       <Header />

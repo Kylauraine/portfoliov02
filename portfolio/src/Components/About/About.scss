@@ -3,6 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
   &__title {
     font-size: 2rem;
@@ -17,11 +19,15 @@
     text-align: center;
     margin: 20px;
     width: 50%;
+
+    &__bold {
+      font-weight: 600;
+    }
   }
 
   &__icon {
     margin: 10px 0;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #696969;
   }
 }
