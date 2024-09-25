@@ -49,3 +49,14 @@
     opacity: 0.5;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .Footer {
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .Footer__logo {
+    margin: 10px;
+  }
+}
