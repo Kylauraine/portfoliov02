@@ -28,24 +28,54 @@
     margin-left: 1rem;
     font-size: 1em;
   }
+
+  &__menuButton {
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  &__collapseMenu {
+    display: none;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
   .Header {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 1rem;
+    align-items: center;
+    padding: 1rem;
 
     &__profile {
-      width: 100%;
-      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-bottom: 1rem;
     }
 
-    .Navbar {
+    &__portrait {
+      margin-bottom: 0.5rem;
+    }
+
+    &__name {
+      margin-left: 0;
+      font-size: 1.5rem;
+    }
+
+    &__menuButton {
+      display: block;
+    }
+
+    .Header__collapseMenu {
+      display: block;
       width: 100%;
-      display: flex;
-      justify-content: left;
+    }
+
+    .Header__navbar {
+      display: none;
     }
   }
 }

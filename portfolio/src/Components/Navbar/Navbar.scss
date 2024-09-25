@@ -25,15 +25,15 @@ a {
 
 @media screen and (max-width: 768px) {
   .Navbar {
-    flex-direction: row;
+    flex-direction: column;
 
     gap: 0.5rem;
-    max-width: 80%;
+    max-width: 100%;
     padding: 0;
   }
 
   .Navbar__list {
-    flex-direction: row;
+    flex-direction: column;
 
     gap: 0.5rem;
     align-items: center;

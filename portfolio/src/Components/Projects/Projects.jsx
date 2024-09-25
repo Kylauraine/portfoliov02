@@ -18,33 +18,49 @@ const Projects = () => {
 
           <div className="projects__container__project__text">
             <h3>
-              <a href="https://github.com/Kylauraine/Projet-2-HTML-CSS-Booki"> Booki</a> <FontAwesomeIcon icon={faHtml5} />{" "}
-              <FontAwesomeIcon icon={faCss3Alt} />
+              <a href="https://github.com/Kylauraine/Projet-2-HTML-CSS-Booki" target="_blank" rel="noreferrer">
+                {" "}
+                Booki
+              </a>{" "}
+              <FontAwesomeIcon icon={faHtml5} /> <FontAwesomeIcon icon={faCss3Alt} />
             </h3>
 
-            <Collapse title="En savoir plus" children="Intégration responsive en HTML/CSS d'une maquette Figma" />
+            <Collapse
+              title="En savoir plus"
+              children="Mise en place d'un environnement Front-end, Intégration en HTML/CSS d'une maquette Figma, Intégration responsive pour desktop, tablette et mobile. "
+            />
           </div>
         </div>
         <div className="projects__container__project">
           <img className="projects__container__project__img" src={ecran_bluel} alt="ecran" />
           <div className="projects__container__project__text">
             <h3>
-              <a href="https://github.com/Kylauraine/Projet-JS"> Sophie Bluel</a> <FontAwesomeIcon icon={faJs} />
+              <a href="https://github.com/Kylauraine/Projet-JS" target="_blank" rel="noreferrer">
+                {" "}
+                Sophie Bluel
+              </a>{" "}
+              <FontAwesomeIcon icon={faJs} />
             </h3>
 
-            <Collapse title="En savoir plus" children="Création d'une page web dynamique, manipulation du DOM et gestion des événements" />
+            <Collapse
+              title="En savoir plus"
+              children="Création d'une page web dynamique, manipulation du DOM, gestion des événements, création de modales, ajout/suppression des travaux sans raffraîchissement de la page."
+            />
           </div>
         </div>
         <div className="projects__container__project">
           <img className="projects__container__project__img" src={ecran_kasa} alt="ecran" />
           <div className="projects__container__project__text">
             <h3>
-              <a href="https://github.com/Kylauraine/kasa">Kasa</a> <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faSass} />
+              <a href="https://github.com/Kylauraine/kasa" target="_blank" rel="noreferrer">
+                Kasa
+              </a>{" "}
+              <FontAwesomeIcon icon={faReact} /> <FontAwesomeIcon icon={faSass} />
             </h3>
 
             <Collapse
               title="En savoir plus"
-              children="Création d'une application avec Create React App, configuration de la navigation avec React Router, utilisation de Sass"
+              children="Création d'une application avec Create React App, configuration de la navigation avec React Router, organisation des fichiers et dossiers des composants, création d'un Slider, utilisation d'un fichier Data pour mise à jour efficace et automatique des contenus, utilisation de Sass"
             />
           </div>
         </div>
@@ -52,12 +68,14 @@ const Projects = () => {
           <img className="projects__container__project__img" src={ecran_grimoire} alt="ecran" />
           <div className="projects__container__project__text">
             <h3>
-              <a href="https://github.com/Kylauraine/backend">Mon Vieux Grimoire</a> <FontAwesomeIcon icon={faNodeJs} />
+              <a href="https://github.com/Kylauraine/backend" target="_blank" rel="noreferrer">
+                Mon Vieux Grimoire
+              </a>{" "}
+              <FontAwesomeIcon icon={faNodeJs} />
             </h3>
             <Collapse
               title="En savoir plus"
-              children="Mise en oeuvre d'opérations CRUD et stockage sécurisé de données
-"
+              children="Mise en oeuvre d'opérations CRUD et stockage sécurisé de données, création d'une API RESTful, utilisation de MongoDB pour stocker les données, utilisation de Mongoose pour définir les modèles de données, utilisation de Express pour gérer les routes, utilisation de Bcrypt pour chiffrer les mots de passe, utilisation de JWT pour sécuriser les échanges."
             />
           </div>
         </div>
