@@ -54,9 +54,12 @@
   .Footer {
     flex-direction: column;
     height: 100px;
-  }
 
-  .Footer__logo {
-    margin: 10px;
+    &__copyright {
+      align-items: center;
+    }
+    &__logo {
+      margin: 10px;
+    }
   }
 }
