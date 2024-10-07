@@ -1,11 +1,9 @@
 import React from "react";
 import "./Skills.scss";
-import logodark from "../../Assets/logo-dark.png";
 
 const Skills = () => {
   return (
     <div className="skills" id="skills">
-      <img className="skills__logo" src={logodark} alt="logo" />
       <div className="skills__global_container">
         <h2 className="skills__title">Compétences</h2>
         <div className="skills__container">

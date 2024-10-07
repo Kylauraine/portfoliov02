@@ -22,13 +22,6 @@
   &__copyright {
     display: flex;
   }
-
-  &__logo {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-    border-radius: 5px;
-  }
 }
 
 .thanks {
@@ -57,9 +50,6 @@
 
     &__copyright {
       align-items: center;
-    }
-    &__logo {
-      margin: 10px;
     }
   }
 }
