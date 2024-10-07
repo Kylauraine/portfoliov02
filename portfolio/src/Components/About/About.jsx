@@ -23,12 +23,14 @@ const About = () => {
       <p className="About__text__bold">
         Que vous ayez un projet en tête ou que vous cherchiez simplement à en savoir plus sur mon parcours, n'hésitez pas à me contacter !
       </p>
-      <a href="https://www.linkedin.com/in/laura-preston/">
-        <FontAwesomeIcon className="About__icon" icon={faLinkedin} />
-      </a>
-      <a href="https://github.com/Kylauraine">
-        <FontAwesomeIcon className="About__icon" icon={faSquareGithub} />
-      </a>
+      <div className="About__social">
+        <a href="https://www.linkedin.com/in/laura-preston/">
+          <FontAwesomeIcon className="About__icon" icon={faLinkedin} />
+        </a>
+        <a href="https://github.com/Kylauraine">
+          <FontAwesomeIcon className="About__icon" icon={faSquareGithub} />
+        </a>
+      </div>
     </section>
   );
 };

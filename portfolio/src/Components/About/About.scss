@@ -16,13 +16,13 @@
     font-size: 1rem;
     font-weight: 300;
     color: #333;
-    text-align: center;
+    text-align: justify;
     margin: 20px;
     width: 50%;
 
     &__bold {
       font-weight: 600;
-      text-align: center;
+
       width: 50%;
     }
   }
@@ -31,5 +31,24 @@
     margin: 10px 0;
     font-size: 3rem;
     color: #696969;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .About {
+    &__text {
+      width: 80%;
+      &__bold {
+        width: 80%;
+      }
+    }
   }
 }
