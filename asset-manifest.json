@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/portfoliov02/static/css/main.37689285.css",
-    "main.js": "/portfoliov02/static/js/main.2ad0dc2a.js",
-    "static/js/453.1407b060.chunk.js": "/portfoliov02/static/js/453.1407b060.chunk.js",
-    "static/media/lampe.jpg": "/portfoliov02/static/media/lampe.f4d9a716b13b2b42080a.jpg",
-    "static/media/ecran_kasa.png": "/portfoliov02/static/media/ecran_kasa.7283b103b0a46fd84225.png",
-    "static/media/ecran_bluel.png": "/portfoliov02/static/media/ecran_bluel.cef5a79b5804b71e3f14.png",
-    "static/media/ecran_grimoire.png": "/portfoliov02/static/media/ecran_grimoire.83e4af586787418fa877.png",
-    "static/media/portrait.jpg": "/portfoliov02/static/media/portrait.1f77115a9a923bf50c8a.jpg",
-    "static/media/ecran_booki.png": "/portfoliov02/static/media/ecran_booki.a100946a29778378aa39.png",
-    "static/media/background_intro.png": "/portfoliov02/static/media/background_intro.6d06f859355fef6c64cc.png",
-    "static/media/logo-dark.png": "/portfoliov02/static/media/logo-dark.46a8594a89f8e366a02e.png",
-    "static/media/logo-light.png": "/portfoliov02/static/media/logo-light.61650ff95d114dc0a82c.png",
-    "index.html": "/portfoliov02/index.html",
-    "main.37689285.css.map": "/portfoliov02/static/css/main.37689285.css.map",
-    "main.2ad0dc2a.js.map": "/portfoliov02/static/js/main.2ad0dc2a.js.map",
-    "453.1407b060.chunk.js.map": "/portfoliov02/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.c0f84b46.css",
+    "main.js": "/static/js/main.5a077d9e.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/lampe.jpg": "/static/media/lampe.f4d9a716b13b2b42080a.jpg",
+    "static/media/ecran_kasa.png": "/static/media/ecran_kasa.7283b103b0a46fd84225.png",
+    "static/media/ecran_bluel.png": "/static/media/ecran_bluel.cef5a79b5804b71e3f14.png",
+    "static/media/ecran_grimoire.png": "/static/media/ecran_grimoire.83e4af586787418fa877.png",
+    "static/media/portrait.jpg": "/static/media/portrait.1f77115a9a923bf50c8a.jpg",
+    "static/media/ecran_booki.png": "/static/media/ecran_booki.a100946a29778378aa39.png",
+    "static/media/background_intro.png": "/static/media/background_intro.6d06f859355fef6c64cc.png",
+    "index.html": "/index.html",
+    "main.c0f84b46.css.map": "/static/css/main.c0f84b46.css.map",
+    "main.5a077d9e.js.map": "/static/js/main.5a077d9e.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37689285.css",
-    "static/js/main.2ad0dc2a.js"
+    "static/css/main.c0f84b46.css",
+    "static/js/main.5a077d9e.js"
   ]
 }
